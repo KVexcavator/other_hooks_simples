@@ -41,3 +41,9 @@ fetch(`https://api.github.com/users/${login}`, {
 });
 
 // curl https://api.github.com/users/KVexcavator
+
+// Функция saveJSON сохраняет данные в localStorage с помощью идентификатора key.
+const saveJSON = (key, data) => localStorage.setItem(key, JSON.stringify(data));
+// Функция loadJSON загружает элемент из localStorage с помощью ключа.
+const loadJSON = key => key && JSON.parse(localStorage.getItem(key));
+

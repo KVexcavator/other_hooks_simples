@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 // import Checkbox from './intro-use-reducer/Checkbox';
 // import User from './intro-use-reducer/User';
 // import App from './update-use-hooks/App';
-import App from './intro-data-fetch/App';
+import FetchGitHub from './intro-data-fetch/FetchGitHub';
 
 ReactDOM.render(
   // <Checkbox />
@@ -13,6 +13,6 @@ ReactDOM.render(
   // <Checkbox />
   // <User />
   // <App />
-  <App />,
+  <FetchGitHub />,
   document.getElementById('root')
 );
