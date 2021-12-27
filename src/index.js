@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom';
 // import App from './update-use-hooks/App';
 // import FetchGitHub from './intro-data-fetch/FetchGitHub';
 // import StatePromise from './intro-data-fetch/StatePromise';
-import RenderProps from './intro-data-fetch/RenderProps';
+// import RenderProps from './intro-data-fetch/RenderProps';
+import VirtualizedList from './intro-data-fetch/VirtualizedList';
 
 ReactDOM.render(
   // <Checkbox />
@@ -17,6 +18,7 @@ ReactDOM.render(
   // <App />
   // <FetchGitHub />
   // <StatePromise />
-  <RenderProps />,
+  // <RenderProps />
+  <VirtualizedList />,
   document.getElementById('root')
 );
