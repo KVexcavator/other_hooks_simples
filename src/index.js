@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 // import User from './intro-use-reducer/User';
 // import App from './update-use-hooks/App';
 // import FetchGitHub from './intro-data-fetch/FetchGitHub';
-import StatePromise from './intro-data-fetch/StatePromise';
+// import StatePromise from './intro-data-fetch/StatePromise';
+import RenderProps from './intro-data-fetch/RenderProps';
 
 ReactDOM.render(
   // <Checkbox />
@@ -15,6 +16,7 @@ ReactDOM.render(
   // <User />
   // <App />
   // <FetchGitHub />
-  <StatePromise />,
+  // <StatePromise />
+  <RenderProps />,
   document.getElementById('root')
 );
