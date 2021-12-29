@@ -1,4 +1,5 @@
 import Fetch from "./Fetch";
+import UserRepositories from "./UserRepositories";
 
 export default function GitHubUser({ login }) {
   return (
@@ -26,6 +27,10 @@ function UserDetails({ data }) {
         {data.name && <p>{data.name}</p>}
         {data.location && <p>{data.location}</p>}
       </div>
+      <UserRepositories
+        login={data.login}
+        onSelect={repoName => console.log(`${repoName} selected`)}
+      />
     </div>
   );
 }
