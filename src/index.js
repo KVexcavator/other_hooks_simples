@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom';
 // import StatePromise from './intro-data-fetch/StatePromise';
 // import RenderProps from './intro-data-fetch/RenderProps';
 // import VirtualizedList from './intro-data-fetch/VirtualizedList';
-import FetchGitHub from './deep-in-fetch/FetchGitHub';
+// import FetchGitHub from './deep-in-fetch/FetchGitHub';
+import GraphQL from './intro-graph-ql/GraphQL';
 
 ReactDOM.render(
   // <Checkbox />
@@ -21,6 +22,7 @@ ReactDOM.render(
   // <StatePromise />
   // <RenderProps />
   // <VirtualizedList />
-  <FetchGitHub />,
+  // <FetchGitHub />
+  <GraphQL />,
   document.getElementById('root')
 );
