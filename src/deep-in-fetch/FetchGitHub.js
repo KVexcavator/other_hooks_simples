@@ -10,13 +10,13 @@ export default function FetchGitHub() {
   return (
     <>
       <SearchForm value={login} onSearch={setLogin} />
-      <GitHubUser login={login} />
-      <UserRepositories
+      {login && <GitHubUser login={login} />}
+      {login && (<UserRepositories
         login={login}
         repo={repo}
         onSelect={setRepo}
-      />
-      <RepositoryReadme login={login} repo={repo} />
+      />)}
+      {login && repo && (<RepositoryReadme login={login} repo={repo} />)}
     </>
   );
 }
