@@ -1,9 +1,9 @@
 import Fetch from "./Fetch";
-import {RepoMenu} from "./RepoMenu";
+import { RepoMenu } from "./RepoMenu";
 
 export default function UserRepositories({
   login,
-  selectedRepo,
+  repo,
   onSelect = f => f
 }){
   return (
@@ -11,12 +11,11 @@ export default function UserRepositories({
       uri={`https://api.github.com/users/${login}/repos`}
       renderSuccess={({ data }) => (
         <RepoMenu
-          login={login}
           repositories={data}
-          selectedRepo={selectedRepo}
+          selected={repo}
           onSelect={onSelect}
         />
-      )}
+      )}      
     />
   )
 }
