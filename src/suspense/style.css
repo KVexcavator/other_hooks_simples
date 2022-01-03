@@ -8,10 +8,16 @@
   padding: 1em;
 }
 .second {
-  background: thistle;
+  background: lavender;
   padding: 1em;
 }
 .callout {
   border:  double black 3px;
+  padding: 1em;
+}
+.error {
+  background-color: #efacac;
+  border: double 4px darkred;
+  color: darkred;
   padding: 1em;
 }
