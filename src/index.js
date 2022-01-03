@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 // import RenderProps from './intro-data-fetch/RenderProps';
 // import VirtualizedList from './intro-data-fetch/VirtualizedList';
 // import FetchGitHub from './deep-in-fetch/FetchGitHub';
-import GraphQL from './intro-graph-ql/GraphQL';
+// import GraphQL from './intro-graph-ql/GraphQL';
+import Suspense from './suspense/Suspense';
 
 ReactDOM.render(
   // <Checkbox />
@@ -23,6 +24,7 @@ ReactDOM.render(
   // <RenderProps />
   // <VirtualizedList />
   // <FetchGitHub />
-  <GraphQL />,
+  // <GraphQL />
+  <Suspense />,
   document.getElementById('root')
 );
