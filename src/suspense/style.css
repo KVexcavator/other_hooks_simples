@@ -1,0 +1,17 @@
+.site-container {
+  display: grid; 
+  grid-template-columns: 1fr 2fr; 
+  grid-template-rows: 1fr;  
+}
+.first {
+  background: slategray;
+  padding: 1em;
+}
+.second {
+  background: thistle;
+  padding: 1em;
+}
+.callout {
+  border:  double black 3px;
+  padding: 1em;
+}
