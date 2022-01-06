@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 
-function Checkbox() {
+function CheckboxReducer() {
   const [checked, toggle] = useReducer( checked => !checked, false);
  
   return (
@@ -16,4 +16,4 @@ function Checkbox() {
   );   
 }
 
-export default Checkbox;
+export default CheckboxReducer;

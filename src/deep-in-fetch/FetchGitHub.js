@@ -4,7 +4,7 @@ import SearchForm from "./SearchForm";
 import UserRepositories from './UserRepositories';
 import RepositoryReadme from './RepositoryReadme';
 
-export default function FetchGitHub() {
+export default function FetchGitHubDeep() {
   const [login, setLogin] = useState("KVexcavator");
   const [repo, setRepo] = useState("cash_flow_api");
   
