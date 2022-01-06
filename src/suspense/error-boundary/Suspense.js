@@ -1,7 +1,7 @@
 import SiteLayout from "./SiteLayout";
 import Callout from "./Callout";
 import ErrorBoundary from "./ErrorBoundary";
-import './style.css'
+import '../style.css'
 
 const BreakThings = () => {
   throw new Error("We intentionally broke something");

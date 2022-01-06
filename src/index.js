@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom';
 // import VirtualizedList from './intro-data-fetch/VirtualizedList';
 // import FetchGitHub from './deep-in-fetch/FetchGitHub';
 // import GraphQL from './intro-graph-ql/GraphQL';
-import Suspense from './suspense/Suspense';
+import Suspense from './suspense/error-boundary/Suspense';
 
 ReactDOM.render(
   // <Checkbox />
