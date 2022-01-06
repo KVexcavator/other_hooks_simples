@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css'
 // import Checkbox from './intro-use-effect/Checkbox';
 // import Phrase from "./intro-use-effect/Phrase";
 // import Checkbox from './intro-use-reducer/Checkbox';
@@ -14,6 +15,23 @@ import ReactDOM from 'react-dom';
 // import Suspense from './suspense/error-boundary/Suspense';
 import CodeFragment from './suspense/code-fragments/CodeFragment';
 
+const ItemsArr = ['CodeFragment']
+
+function Glob(){
+  return (
+    <div className='glob-container'>
+      <div className='glob-first'>
+        <ol>
+          {ItemsArr.map(item => (
+            <li key={Math.random()}>{item}</li>
+          ))}
+        </ol>
+      </div>
+      <div className='glob-second'><CodeFragment /></div>
+    </div>
+  )
+}
+
 ReactDOM.render(
   // <Checkbox />
   // <Phrase />
@@ -27,6 +45,6 @@ ReactDOM.render(
   // <FetchGitHub />
   // <GraphQL />
   // <Suspense />
-  <CodeFragment />,
+  <Glob />,
   document.getElementById('root')
 );

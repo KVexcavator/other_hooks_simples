@@ -1,0 +1,11 @@
+.glob-container {
+  display: grid; 
+  grid-template-columns: 1fr 4fr; 
+  grid-template-rows: 1fr;  
+}
+.glob-first {
+  background: cadetblue;
+}
+.glob-second {
+  padding-left: 20px;
+}
